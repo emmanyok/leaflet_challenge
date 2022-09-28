@@ -1,0 +1,39 @@
+/* Remove margins and padding on page */
+body {
+  padding: 0;
+  margin: 0;
+}
+
+/* Make Map whole page */
+#map,
+body,
+html {
+height: 100%;
+}
+
+/* Format the legend */
+.legend {
+  line-height: 18px;
+  color: black;
+  background-color: rgb(10, 10, 10);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+/* Format the legend: i */
+.legend i {
+  width: 18px;
+  height: 18px;
+  float: left;
+  margin-right: 8px;
+  opacity: 0.7;
+}
+
+/* Info Title styling */
+.info {
+  line-height: 18px;
+  background-color: white;
+  padding: 5px;
+  border-radius: 5px;
+  opacity: .75;
+}
